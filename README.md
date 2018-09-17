@@ -57,10 +57,16 @@ page and you should see a list of your products with thumbnails!
 
 Deploying production site:
 --------------------------
-Follow these instructions except for the tasks that have already been done in the previous steps
+- Follow these instructions except for the tasks that have already been done in the previous steps
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04
 
 https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
+
+- Create a crontab so the server pulls new data from Etsy every 15 minutes
+```
+cd ~/app
+sudo crontab crontab
+```
 
 Feel free to contact me at damen.king@gmail.com if you have problems as it can be difficult to get everything set up.
