@@ -1,0 +1,4 @@
+*.pyc
+__pycache__
+etsy_user_id.py
+django_secret_key.py
